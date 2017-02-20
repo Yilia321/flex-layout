@@ -1,0 +1,138 @@
+*{padding:0;margin: 0;}
+header{
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    background-color: #ff6d8f;
+    color: #ffffff;
+    position: relative;
+}
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    position: absolute;
+    left:1%;
+}
+header p{
+    text-align: center;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.container .wlxx{
+    display: flex;
+}
+.container .item1{
+    height: 100px;
+    flex-grow: 2;
+    background: url("image/icon1.png") no-repeat center;
+    -webkit-background-size:60px;
+    background-size:60px;
+}
+.container .item2{
+    height: 100px;
+    flex-grow: 1;
+    background: url("image/icon2.png") no-repeat center;
+    -webkit-background-size:60px;
+    background-size:30px;
+}
+
+
+.hwxx p,.zfxx p{
+    height: 30px;
+    line-height:30px;
+    margin: 50px 0;
+    font-size: 24px;
+    text-indent: 1%;
+    border-left: 3px solid #ff6d8f;
+}
+.hwxx li,.zfxx li{
+    list-style: none;
+    height: 40px;
+    line-height:40px;
+    font-size: 22px;
+    color: #000;
+}
+.hwxx span,.zfxx span{
+    color: #cccccc;
+    font-size: 20px;
+}
+.zfxx del{
+    text-decoration: line-through;
+}
+.btn a{
+    display: block;
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+    color: #666;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    margin: 60px auto 30px;
+}
+.btn a:hover{
+    color: #ffffff;
+    background-color: #ff6d8f;
+    border: none;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid #cccccc;
+}
+footer ul{
+    display: flex;
+}
+footer li{
+    list-style: none;
+    flex-grow: 1;
+}
+footer a{
+    text-decoration: none;
+    display: block;
+    color: #666666;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+footer .a1{
+    background: url("image/icon3.png") no-repeat center 10px;
+}
+footer .a2{
+    background: url("image/icon4.png") no-repeat center 10px;
+}
+footer .a3{
+    background: url("image/icon5.png") no-repeat center 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
